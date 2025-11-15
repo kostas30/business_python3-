@@ -1,9 +1,4 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
-diff --git a/code/code.py b/code/code.py
-index e82175e392e88ea3332ae7378c8ad7aca9a62e78..5e10ba366a6c96bc437d8d94de6542fc1c6e3149 100644
---- a/code/code.py
-+++ b/code/code.py
-@@ -1,27 +1,29 @@
+
  import time
  
  
